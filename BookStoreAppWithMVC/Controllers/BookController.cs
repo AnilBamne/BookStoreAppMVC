@@ -15,15 +15,23 @@ namespace BookStoreAppWithMVC.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public IActionResult AddBook()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult AddBook(BookModel bookModel)
         {
             var result=bookBL.AddBook(bookModel);
+            return View(result);
+        }
+
+        public IActionResult GetBooks()
+        {
+            var result = bookBL.GetBooks();
             return View(result);
         }
     }

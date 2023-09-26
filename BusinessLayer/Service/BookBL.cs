@@ -19,5 +19,9 @@ namespace BusinessLayer.Service
         {
             return bookRL.AddBook(bookModel);
         }
+        public List<BookModel> GetBooks()
+        {
+            return bookRL.GetBooks();
+        }
     }
 }

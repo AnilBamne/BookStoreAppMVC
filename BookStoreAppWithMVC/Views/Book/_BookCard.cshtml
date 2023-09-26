@@ -1,0 +1,17 @@
+﻿
+@model CommonLayer.Model.BookModel;
+<link rel="stylesheet" href="~/css/bookCard.css" />
+
+<div class="card">
+	<div calss="book-img">
+		<img />
+	</div>
+	<div class="bookName">@Model.BookName</div>
+	<div class="auth">by @Model.AuthorName</div>
+	<div class="rate"> 
+		<div>@Model.BookTotalRating</div><div>@Model.TotalPeopleRated</div>
+	</div>
+	<div class="price">
+		<div>@Model.DiscountPrice</div><div>@Model.OriginalPrice</div>
+	</div>
+</div>
