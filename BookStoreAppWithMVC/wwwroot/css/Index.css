@@ -1,0 +1,41 @@
+﻿.body-sec
+{
+    display:flex;
+    justify-content:center;
+    margin-top:10rem;
+    background-color:dimgrey;
+}
+.sub-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img-sec {
+    background-color: white;
+    padding: 20px;
+    -webkit-border-top-left-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+}
+img {
+    width: 200px;
+    border-radius:200px;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    height:auto;
+    border-radius:20PX;
+    box-shadow:7px 7px 4px rgb(234, 232, 234);
+}
+.btns{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+.l-btn{
+    background-color:aqua;
+}
+.s-btn {
+    background-color: purple;
+}
